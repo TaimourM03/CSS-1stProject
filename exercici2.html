@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercici2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<<link rel="stylesheet" href="css/index.css">
+<<link rel="stylesheet" href="css/Exercici2.css">
+
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Pràctica CSS </h1>
+  <h2>By: Ivan Melgar & Taimour Mahroof
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.html">Index</a>
+  <a href="Exercici1.html">Exercici1</a>
+  <a href="Exercici2.html">Exercici2.0</a>
+  <a href="Exercici2-1.html">Exercici2.1</a>
+  <a href="Exercici2-2.html">Exercici2.2</a>
+  <a href="Exercici2-3.html">Exercici2.3</a>
+  <a href="Exercici3.html">Exercici3</a>
+  <a href="Exercici4.html">Exercici4</a>
+  <a href="Exercici5.html">Exercici5</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+  </div>
+
+  <div class="main">
+    <h3>2.0.  Explicar detalladament què fa el document exercici2.css. Comproveu com es veu exercici2.html amb i sense aquest document css per visualitzar millor què el full d’estil css.</h3>
+    <p>Explicació del CSS:<br><br>
+       -A tots els elements s'aplica:
+        <ul>
+          <li>Una width (amplada) del 90% de l'espai a la pantalla, es a dir nomes hi ha un 10% d'espai lliure.</li>
+          <li>Una width (amplada) maxima de 900 pixels, al aplicar una max-widht, el widht aplicat abans del 90% es ignorat.</li>
+          <li>Un margin en auto, per a que els elements estiguin al centre.</li>
+          <li>A tots els elements &lt;li&gt; i &lt;ul&gt;, s'aplica un margin de 0, es a dir, no hi ha res de marge.</li>
+          <li>A tots els elements &lt;li&gt; i &lt;ul&gt;, s'aplica un padding de 0, es a dir, l'espai dins del contenidor es de 0.</li>
+          <li>Als &lt;li&gt;, s'aplica un style none, es a dir, es quiten els cercles que estan al començament.</li>
+          <li>A tots els &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;p&gt; i &lt;form&gt;, s'aplica un margin de 0, es a dir, no hi ha res de marge.</li>
+          <li>A tots els &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;p&gt; i &lt;form&gt;, s'aplica un padding de 0, es a dir, l'espai dins del contenidor es de 0.</li>
+        </ul>
+
+       -A l'header s'aplica (l'encapçelat):
+        <ul>
+          <li>Un border de grosor de 2px, amb un color #777 (Gris).</li>
+          <li>a l'h1 dins del header (Logotipo) s'aplica un float cap a l'esquerra.</li>
+          <li>al buscador dins del header (buscador) també s'aplica un float cap a l'esquerra.</li>
+          <li>També s'aplica un clear cap a ambdues direccions (esquerra i dreta).</li>
+          <li>Al final del header s'aplica un clear a ambdues direccions (esquerra i dreta), aixo el que fa es que els elements que estiguin a continuació del header, estiguin abaix dels elements amb float del header, sense aixo estarian juntament amb el header.</li>
+        </ul>
+
+       -Al Navigation Menu (Nav) s'aplica:
+       <ul>
+         <li>Un border de grosor de 2px, amb un color #777 (Gris).</li>
+         <li>s'aplica un clear cap a ambdues direccions (esquerra i dreta).</li>
+         <li>s'aplica un display inline per als &lt;li&gt; en el nav, això fa que estiguin tots en una mateixa linia.</li>
+         <li>Al final del nav s'aplica un clear a ambdues direccions (esquerra i dreta), aixo el que fa es que els elements que estiguin a continuació del nav, estiguin abaix dels elements amb float del nav, sense això estarian juntament amb el nav.</li>
+       </ul>
+
+       -Al Main Content s'aplica (al main tenim dos parts diferents, el contingut principal (el requadre del centre) i el secundari (el requadre de la dreta)):
+       <ul>
+         <li>Un border de grosor de 2px, amb un color #777 (Gris) a tot el main.</li>
+         <li>Un border de grosor de 2px, amb un color #777 (Gris) al contingut principal (el requadre del centre).</li>
+         <li>Un border de grosor de 2px, amb un color #777 (Gris) al contingut secundari (el requadre de la dreta).</li>
+         <li>Dins del contingut principal (el del centre), hi ha unes imatges, abaix dels tituls dels 2 articles, doncs a aquestes imatges sels hi aplica una width (amplada) de 100px.</li>
+         <li>S'aplica un float cap a l'esquerra a tots els elements del contingut principal (el requadre del centre), que serveix per a ubicar els elements a l'esquerra del seu contenedor.</li>
+         <li>S'aplica un float cap a la dreta a tots els elements del contingut secundari (el requadre de la dreta), que serveix per a ubicar els elements a la dreta del seu contenedor.</li>
+         <li>S'aplica un width (amplada) al contingut principal (el requadre del centre) del 78%.</li>
+         <li>S'aplica un width (amplada) al contingut secundari (el requadre de la dreta) del 20%.</li>
+         <li>Al final delmain s'aplica un clear a ambdues direccions (esquerra i dreta), aixo el que fa es que els elements que estiguin a continuació del main, estiguin abaix dels elements amb float del main, sense això estarian juntament amb el main.</li>
+       </ul>
+
+       -Al Content s'aplica (el requadre de l'esquerra):
+       <ul>
+         <li>Un border de grosor de 2px, amb un color #777 (Gris).</li>
+         <li>S'aplica un float cap a l'esquerra, que serveix per a ubicar els elements a l'esquerra del seu contenedor.</li>
+         <li>S'aplica un width (amplada) del 20%.</li>
+       </ul>
+
+       -Al footer s'aplica (el peu):
+       <ul>
+         <li>Un border de grosor de 2px, amb un color #777 (Gris).</li>
+         <li>s'aplica un clear cap a ambes direccions (esquerra i dreta).</li>
+         <li>Als clickables (enllaços) del footer, s'aplica un float cap a l'esquerra, que serveix per a ubicar els elements a l'esquerra del seu contenedor.</li>
+         <li>Al copyright del footer, s'aplica un float cap a la dreta, que serveix per a ubicar els elements a la dreta del seu contenedor. </li>
+         <li>Al clear dins del footer(), s'aplica un clear cap a ambdues direccions (esquerra i dreta) </li>
+         <li>Al final del footer s'aplica un clear a ambdues direccions (esquerra i dreta), aixo el que fa es que els elements que estiguin a continuació del footer, estiguin abaix dels elements amb float del nav, sense això estarian juntament amb el footer.</li>
+       </ul>
+
+  </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
