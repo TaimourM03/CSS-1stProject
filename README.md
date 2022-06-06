@@ -1,7 +1,7 @@
 # CSS-1stProject
       En este repositorio se encuenta el proyecto hecho en clases: una pagina web con HTML y estilizados con CSS, la cual incluye varios ejercicios dentro:
 
-####  [Página principal (incluye una captura en la que se muestra que se han pasado los primeros 12 niveles del CSS Diner)](https://taimourmahroofprac0.000webhostapp.com/EP2/index.html)
+####  [Página principal [aka index] (incluye una captura en la que se muestra que se han pasado los primeros 12 niveles del CSS Diner)](https://taimourmahroofprac0.000webhostapp.com/EP2/index.html)
 
 ####  [Ejercicio 1 (Varios titulos, parrafos y tablas, en los cuales se ha cambiado el color, tamaño, estilo... mediante CSS.)](https://taimourmahroofprac0.000webhostapp.com/EP2/exercici1.html)
 
